@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "地址选择工具"
+  s.description  = "包含最新国内数据的地址选择器，集成模式分为省市/省市区联动选择"
 
   s.homepage     = "https://github.com/zyp688/YPAreaSelector"
   # s.screenshots  = "https://github.com/zyp688/YPAreaSelector/blob/master/YPAreaSelectorDemo.gif"
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "YPAreaSelector/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  #s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "YPAreaSelector/YPAreaSelectView.h"
 

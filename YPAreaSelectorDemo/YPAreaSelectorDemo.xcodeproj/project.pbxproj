@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26516AF7223F7B4E009D63AB /* AreasPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26516AF4223F7B4E009D63AB /* AreasPlist.plist */; };
-		26516AF8223F7B4E009D63AB /* YPAreaSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26516AF5223F7B4E009D63AB /* YPAreaSelectView.m */; };
+		266AF23E223FA42A00068D30 /* YPAreaSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AF23B223FA42A00068D30 /* YPAreaSelectView.m */; };
+		266AF23F223FA42A00068D30 /* AreasData.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 266AF23C223FA42A00068D30 /* AreasData.bundle */; };
 		26AD6BB9223BA49700ECA248 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AD6BB8223BA49700ECA248 /* AppDelegate.m */; };
 		26AD6BBC223BA49700ECA248 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AD6BBB223BA49700ECA248 /* ViewController.m */; };
 		26AD6BBF223BA49700ECA248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AD6BBD223BA49700ECA248 /* Main.storyboard */; };
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26516AF4223F7B4E009D63AB /* AreasPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AreasPlist.plist; sourceTree = "<group>"; };
-		26516AF5223F7B4E009D63AB /* YPAreaSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPAreaSelectView.m; sourceTree = "<group>"; };
-		26516AF6223F7B4E009D63AB /* YPAreaSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPAreaSelectView.h; sourceTree = "<group>"; };
+		266AF23B223FA42A00068D30 /* YPAreaSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPAreaSelectView.m; sourceTree = "<group>"; };
+		266AF23C223FA42A00068D30 /* AreasData.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AreasData.bundle; sourceTree = "<group>"; };
+		266AF23D223FA42A00068D30 /* YPAreaSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPAreaSelectView.h; sourceTree = "<group>"; };
 		26AD6BB4223BA49700ECA248 /* YPAreaSelectorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPAreaSelectorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AD6BB7223BA49700ECA248 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26AD6BB8223BA49700ECA248 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,12 +83,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26516AF3223F7B4E009D63AB /* YPAreaSelector */ = {
+		266AF23A223FA42A00068D30 /* YPAreaSelector */ = {
 			isa = PBXGroup;
 			children = (
-				26516AF4223F7B4E009D63AB /* AreasPlist.plist */,
-				26516AF5223F7B4E009D63AB /* YPAreaSelectView.m */,
-				26516AF6223F7B4E009D63AB /* YPAreaSelectView.h */,
+				266AF23C223FA42A00068D30 /* AreasData.bundle */,
+				266AF23D223FA42A00068D30 /* YPAreaSelectView.h */,
+				266AF23B223FA42A00068D30 /* YPAreaSelectView.m */,
 			);
 			path = YPAreaSelector;
 			sourceTree = SOURCE_ROOT;
@@ -116,7 +116,7 @@
 		26AD6BB6223BA49700ECA248 /* YPAreaSelectorDemo */ = {
 			isa = PBXGroup;
 			children = (
-				26516AF3223F7B4E009D63AB /* YPAreaSelector */,
+				266AF23A223FA42A00068D30 /* YPAreaSelector */,
 				26AD6BB7223BA49700ECA248 /* AppDelegate.h */,
 				26AD6BB8223BA49700ECA248 /* AppDelegate.m */,
 				26AD6BBA223BA49700ECA248 /* ViewController.h */,
@@ -253,7 +253,7 @@
 			files = (
 				26AD6BC4223BA49900ECA248 /* LaunchScreen.storyboard in Resources */,
 				26AD6BC1223BA49900ECA248 /* Assets.xcassets in Resources */,
-				26516AF7223F7B4E009D63AB /* AreasPlist.plist in Resources */,
+				266AF23F223FA42A00068D30 /* AreasData.bundle in Resources */,
 				26AD6BBF223BA49700ECA248 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +281,7 @@
 			files = (
 				26AD6BBC223BA49700ECA248 /* ViewController.m in Sources */,
 				26AD6BC7223BA49900ECA248 /* main.m in Sources */,
-				26516AF8223F7B4E009D63AB /* YPAreaSelectView.m in Sources */,
+				266AF23E223FA42A00068D30 /* YPAreaSelectView.m in Sources */,
 				26AD6BB9223BA49700ECA248 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

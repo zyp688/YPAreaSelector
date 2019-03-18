@@ -223,7 +223,7 @@
 
 //MARK: 获取plist数据
 - (NSArray *)getAreasPlistData {
-    NSString *areasPlistPath =  [[NSBundle mainBundle] pathForResource:@"AreasPlist" ofType:@"plist"];
+    NSString *areasPlistPath =  [[NSBundle mainBundle] pathForResource:@"AreasData.bundle/AreasPlist" ofType:@"plist"];
     NSArray *areasArr = [[NSArray alloc] initWithContentsOfFile:areasPlistPath];
     return areasArr;
 }
