@@ -1,14 +1,14 @@
-# YPAreaSelector
-三级联动地址选择器
+# YPAreaSelector（QQ打趣群：68153279）
+## ☆☆☆ “iOS地址选择器、二级联动（省市）选择器、三级联动（省市区）选择器” ☆☆☆
 
-### 应用场景
-```
-地址选择器，应用场景是在是太多了...不过多介绍
-只提雷区:网上多数地区数据都已经过时了,而且三级省市区的资料更是比较少，因业务需求做个Demo，有需要的朋友可以直接使用。
-```
-``地区更新于2019-03-15，手动校验更新，有需要的直接带走，顺带给个辛苦的Star吧...哈哈O(∩_∩)O~``
+### 支持pod导入
+pod 'YPAreaSelector','~> 1.0.0'
 
-### 具体用法
+### 更改记录：
+2019.03.18 --> 初始化工程，规整程序路径.
+
+### 代码应用
+
 ```
 //初始化
 +(instancetype)createAreasSelectView;
@@ -20,10 +20,9 @@
 - (void)showAreaSelectorChooseComplete:(void(^)(NSString *_Nullable province, NSString *_Nullable city, NSString *_Nullable county))complete;
 
 ```
+***
+
 ### 效果图演示
 ![image](https://github.com/zyp688/YPAreaSelector/blob/master/YPAreaSelectorDemo.gif) 
 
 ##### 【借鉴声明：本篇无借鉴，如有雷同，纯属扯淡】
-
-###### 更多技术探讨研究，欢迎小伙伴们加Q群68153279，我们一起进步！
-
