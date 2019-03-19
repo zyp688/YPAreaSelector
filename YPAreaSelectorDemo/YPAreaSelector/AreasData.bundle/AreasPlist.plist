@@ -5958,18 +5958,5 @@
 			</dict>
 		</array>
 	</dict>
-	<dict>
-		<key>name</key>
-		<string>国外</string>
-		<key>cities</key>
-		<array>
-			<dict>
-				<key>name</key>
-				<string>美国</string>
-				<key>counties</key>
-				<array/>
-			</dict>
-		</array>
-	</dict>
 </array>
 </plist>
