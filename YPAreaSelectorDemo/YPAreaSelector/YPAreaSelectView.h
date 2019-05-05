@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) YPAREA_SELECTOR_DATA_TYPE dataType;
 
 /**
- @brief 设置地址选择区视图的高度
+ @brief 设置地址选择区视图的高度 默认为220.f
  */
 @property (assign, nonatomic) CGFloat areaSelectViewHeight;
 
